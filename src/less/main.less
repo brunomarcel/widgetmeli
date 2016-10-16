@@ -1,0 +1,58 @@
+.container {
+	width: 780px;
+	margin: 0 auto;
+	h1 {
+		padding: 20px 0;
+		text-align: center;
+	}
+}
+main {
+	overflow: hidden
+}
+.product-img {
+	float: left
+}
+.infos {
+	float: right;
+	.warning {
+		margin: 5px 0 10px 0;
+	}
+}
+.infos-price {
+	color: #b00;
+	font-size: 24px;
+	sup{
+		vertical-align: text-top;
+		font-size: 15px;
+	}
+}
+.infos-carousel {
+	width: 430px;
+	li {
+		text-align: center;
+		width: 110px
+	}
+}
+.infos-options {
+	position: relative;
+	> span{
+		margin-right: 15px;
+	}
+	&.infos-options1 {
+		z-index: 2
+	}
+	&.infos-options2 {
+		z-index: 1
+	}
+}
+.ch-popover-content li{
+	padding-left: 8px
+}
+
+
+/* rewriting plugin chico */
+.ch-dropdown {
+	min-width: auto
+}
+
+
